@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResultScreenSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="170ca3df703" ></w:Config>
+	<e:Image width="640" height="1136" x="0" y="0" scaleX="1" scaleY="1" source="bg04_png"/>
+	<e:Group width="560" height="700" y="100" horizontalCenter="0" anchorOffsetY="0">
+		<e:Group width="640" height="700" top="0" y="-100" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Rect width="560" height="700" top="0" fillColor="0xfcfcfc" ellipseWidth="20" ellipseHeight="20" anchorOffsetY="0" horizontalCenter="0"/>
+			<e:Image y="295.03" source="xiaoan_png" anchorOffsetX="0" anchorOffsetY="0" width="270.81" height="411.59" scaleX="1.59" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="user_group" width="200" height="120" horizontalCenter="0" y="0">
+			<e:Group id="user_icon" width="120" height="120" y="-60" scaleX="1" scaleY="1" horizontalCenter="0" x="-28">
+				<e:Rect width="130" height="130" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" ellipseWidth="130" ellipseHeight="130" fillColor="0xfcae05"/>
+				<e:Rect id="userIconMask" width="120" height="120" scaleX="1" scaleY="1" strokeColor="0xf96c02" strokeWeight="5" ellipseWidth="120" ellipseHeight="120" horizontalCenter="0" y="0" x="68"/>
+				<e:Image mask="{userIconMask}" width="120" height="120" horizontalCenter="0" y="0" source="bg_jpg" x="68" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Label id="user_name" text="玩家" x="6" width="200" bottom="0" textAlign="center" textColor="0x000000"/>
+		</e:Group>
+		<e:Group id="result_text" width="480" height="93.94" y="180" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group height="152" y="839.76" scaleX="0.84" width="620" anchorOffsetY="0" horizontalCenter="0.5">
+		<e:Group id="share_btn" width="280" height="80" anchorOffsetY="0" scaleX="1" scaleY="1" right="0" verticalCenter="0">
+			<e:Rect width="280" height="80" ellipseWidth="120" ellipseHeight="120" strokeColor="0xFFFFFF" strokeWeight="2" scaleX="1" scaleY="1" right="0" bottom="0" fillColor="0xffffff"/>
+			<e:Label text="分享好友" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" textColor="0xfec848"/>
+		</e:Group>
+		<e:Group id="again_btn" width="280" height="80" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" verticalCenter="0">
+			<e:Rect width="280" x="0" y="0" height="80" ellipseWidth="120" ellipseHeight="120" strokeColor="0xffffff" strokeWeight="2" fillColor="0xfec848"/>
+			<e:Label text="再来一次" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

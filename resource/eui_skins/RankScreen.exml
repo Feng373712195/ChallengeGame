@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankScreenSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="170ca741c9e" ></w:Config>
+	<e:Image width="640" height="1136" x="0" y="0" source="bg04_png"/>
+	<e:Rect width="560" height="700" y="336" fillColor="0xffffff" x="40" ellipseWidth="40" ellipseHeight="40"/>
+	<e:Group width="520" height="200" horizontalCenter="0" y="94">
+		<e:Group width="120" height="200" anchorOffsetX="0" left="0" top="0">
+			<e:Group id="user_avatar_group" width="120" height="100" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="0" y="0">
+				<e:Rect width="110" height="110" horizontalCenter="0" ellipseWidth="110" ellipseHeight="110" y="-5" fillColor="0xffffff"/>
+				<e:Rect id="user_avater_mask_01" width="100" height="100" top="0" horizontalCenter="0" ellipseWidth="100" ellipseHeight="100"/>
+				<e:Image id="second_avatar" width="100" height="100" scaleX="1" scaleY="1" top="0" horizontalCenter="0" mask="{user_avater_mask_01}" source=""/>
+			</e:Group>
+			<e:Group width="120" height="40" horizontalCenter="0" x="0" y="-30" scaleX="1" scaleY="1">
+				<e:Rect width="120" height="40" x="2" y="0" visible="false"/>
+				<e:Label text="保消教授" scaleX="1" scaleY="1" size="22" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Image width="113" height="36" y="0" source="t3" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+			</e:Group>
+			<e:Label id="second_name" text="" y="120" size="25" horizontalCenter="0" width="100" textAlign="center" x="10" scaleX="1" scaleY="1" textColor="0x333333"/>
+			<e:Label id="second_score" text="" x="10" width="100" textAlign="center" size="29" bottom="0" y="174" scaleX="1" scaleY="1" textColor="0x333333"/>
+		</e:Group>
+		<e:Group width="120" height="200" anchorOffsetX="0" top="0" y="-94" scaleX="1" scaleY="1" right="0">
+			<e:Group id="user_avatar_group0" width="120" height="100" scaleX="1" scaleY="1" anchorOffsetX="0" horizontalCenter="0" y="0">
+			<e:Rect width="110" height="110" horizontalCenter="0" ellipseWidth="110" ellipseHeight="110" y="-5" fillColor="0xffc029"/>
+			<e:Rect id="user_avater_mask_02" width="100" height="100" top="0" horizontalCenter="0" ellipseWidth="100" ellipseHeight="100"/>
+			<e:Image id="third_avater" width="100" height="100" scaleX="1" scaleY="1" horizontalCenter="0" mask="{user_avater_mask_02}" y="-1" source=""/>
+			</e:Group>
+			<e:Group width="120" height="40" horizontalCenter="0" x="0" y="-30" scaleX="1" scaleY="1">
+			<e:Rect width="120" height="40" x="2" y="0" visible="false"/>
+			<e:Label text="保消专家" scaleX="1" scaleY="1" size="22" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Image width="113" height="36" y="0" horizontalCenter="0" source="t6"/>
+			</e:Group>
+			<e:Label id="third_name" text="" y="120" size="25" horizontalCenter="0" width="100" textAlign="center" x="10" scaleX="1" scaleY="1" textColor="0x333333"/>
+			<e:Label id="third_score" text="" x="10" width="100" textAlign="center" size="29" bottom="0" y="174" scaleX="1" scaleY="1" textColor="0x333333"/>
+		</e:Group>
+		<e:Group width="120" height="200" anchorOffsetX="0" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+			<e:Group id="user_avatar_group1" width="120" height="100" scaleX="1" scaleY="1" anchorOffsetX="0" y="-20" horizontalCenter="0">
+			<e:Rect width="130" height="130" horizontalCenter="0" ellipseWidth="130" ellipseHeight="130" y="-5" fillColor="0xffc029"/>
+			<e:Rect id="user_avater_mask_03" width="120" height="120" top="0" horizontalCenter="0" ellipseWidth="120" ellipseHeight="120" fillColor="0x000000"/>
+			<e:Image id="first_avatar" width="120" height="120" scaleX="1" scaleY="1" top="0" horizontalCenter="0" mask="{user_avater_mask_03}" source=""/>
+			</e:Group>
+			<e:Group width="120" height="40" horizontalCenter="0" x="0" y="-45" scaleX="1" scaleY="1">
+			<e:Rect width="120" height="40" x="2" y="0" visible="false"/>
+			<e:Label text="保消王者" scaleX="1" scaleY="1" size="22" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				<e:Image width="113" height="36" y="0" horizontalCenter="0" source="t4"/>
+			</e:Group>
+			<e:Label id="first_name" text="" y="120" size="25" horizontalCenter="0" width="100" textAlign="center" x="10" scaleX="1" scaleY="1" textColor="0x333333"/>
+			<e:Label id="first_score" text="" x="10" width="100" textAlign="center" size="29" bottom="0" y="174" scaleX="1" scaleY="1" textColor="0x333333"/>
+		</e:Group>
+	</e:Group>
+	<e:Scroller width="500" height="640" verticalCenter="118" horizontalCenter="0">
+		<e:Group id="rank_list_group" height="640">
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

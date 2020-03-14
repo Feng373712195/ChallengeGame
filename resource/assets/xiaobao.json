@@ -1,0 +1,13 @@
+{"file":"xiaobao.png","frames":{
+"vs":{"x":1,"y":1,"w":648,"h":81,"offX":0,"offY":3,"sourceW":648,"sourceH":87},
+"music_close":{"x":842,"y":1,"w":96,"h":96,"offX":0,"offY":0,"sourceW":96,"sourceH":96},
+"music_open":{"x":192,"y":84,"w":96,"h":96,"offX":0,"offY":0,"sourceW":96,"sourceH":96},
+"t1":{"x":842,"y":99,"w":168,"h":48,"offX":0,"offY":0,"sourceW":168,"sourceH":48},
+"t2":{"x":460,"y":84,"w":168,"h":48,"offX":0,"offY":0,"sourceW":168,"sourceH":48},
+"t3":{"x":651,"y":63,"w":189,"h":60,"offX":0,"offY":0,"sourceW":189,"sourceH":60},
+"t6":{"x":651,"y":1,"w":189,"h":60,"offX":0,"offY":0,"sourceW":189,"sourceH":60},
+"t4":{"x":1,"y":84,"w":189,"h":60,"offX":0,"offY":0,"sourceW":189,"sourceH":60},
+"t5":{"x":290,"y":84,"w":168,"h":48,"offX":0,"offY":0,"sourceW":168,"sourceH":48},
+"help":{"x":704,"y":125,"w":36,"h":36,"offX":0,"offY":0,"sourceW":36,"sourceH":36},
+"error":{"x":940,"y":1,"w":72,"h":72,"offX":0,"offY":0,"sourceW":72,"sourceH":72},
+"right":{"x":630,"y":125,"w":72,"h":72,"offX":0,"offY":0,"sourceW":72,"sourceH":72}}}

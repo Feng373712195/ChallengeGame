@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameScreenSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="170c457267e" ></w:Config>
+	<e:Image id="bg_img" width="1280" height="1136" x="1.33" y="0" source="bg02_png"/>
+	<e:Group width="560" height="180" y="0" horizontalCenter="0">
+		<e:Group height="180" width="100" anchorOffsetX="0" top="0" right="0">
+			<e:Rect id="ai_avater_tmp" width="100" height="100" right="0" ellipseWidth="100" ellipseHeight="100" fillColor="0xffffff" strokeWeight="5" strokeColor="0x6679ec" y="25"/>
+			<e:Label id="ai_name" text="" y="140" horizontalCenter="0" size="24"/>
+			<e:Image id="ai_avater" width="100" height="100" x="0" y="25" scaleX="1" scaleY="1" mask="{ai_avater_mask}" fillMode="scale"/>
+			<e:Rect id="ai_avater_mask" width="90" height="90" y="30" scaleX="1" scaleY="1" ellipseWidth="100" ellipseHeight="100" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group height="180" anchorOffsetX="0" left="0" top="0" width="100">
+			<e:Rect id="player_avater_tmp" width="100" height="100" ellipseWidth="100" ellipseHeight="100" fillColor="0xffffff" fillAlpha="1" strokeAlpha="1" strokeWeight="5" strokeColor="0xed6f44" y="25" horizontalCenter="0"/>
+			<e:Label id="player_name" text="" y="140" horizontalCenter="0" size="24"/>
+			<e:Image id="player_avater" width="90" height="90" y="30" mask="{player_avater_mask}" fillMode="scale" horizontalCenter="0"/>
+			<e:Rect id="player_avater_mask" width="100" height="100" x="0" y="25" scaleX="1" scaleY="1" ellipseWidth="100" ellipseHeight="100"/>
+		</e:Group>
+		<e:Image width="318.04" height="47.94" y="58" anchorOffsetX="0" anchorOffsetY="0" source="vs" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="question_screen" width="560" height="800" y="220" anchorOffsetY="0" horizontalCenter="0">
+		<e:Rect width="560" height="700" y="0" horizontalCenter="0" fillColor="0xffffff" ellipseWidth="20" ellipseHeight="20"/>
+		<e:Label id="question_title" text="" y="94.3" textColor="0x4d4d4d" horizontalCenter="0" width="500" lineSpacing="10" x="0" scaleX="1" scaleY="1" alpha="0"/>
+		<e:Group width="200" height="200" y="-99.14" horizontalCenter="0" x="200.00000000000003" scaleX="1" scaleY="1">
+			<e:Rect width="120" height="120" scaleX="1" scaleY="1" ellipseHeight="120" ellipseWidth="120" horizontalCenter="0" verticalCenter="0" fillColor="0xffffff" strokeColor="0xf6c24d" strokeWeight="10"/>
+			<e:Label id="timeout" text="10" textAlign="center" scaleX="1" scaleY="1" textColor="0xf6c24d" size="40" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="answer_group" width="500" height="324.24" y="187.88" anchorOffsetY="0" alpha="0" horizontalCenter="0">
+			<e:Group id="answer_button_group_01" width="500" height="80" y="0" scaleX="1" scaleY="1" horizontalCenter="0" alpha="1">
+			<e:Rect id="answer_button_01" width="500" height="80" y="39.39" scaleX="1" scaleY="1" strokeWeight="2" fillColor="0xffffff" strokeColor="0xcccccc" ellipseWidth="20" ellipseHeight="20" alpha="1" anchorOffsetX="250" anchorOffsetY="40" horizontalCenter="-2"/>
+				<e:Label id="answer_button_text_01" text="" horizontalCenter="0" verticalCenter="0" width="440" textAlign="center" textColor="0x000000"/>
+				<e:Group id="error_icon_player_01" width="35" height="35" x="-17.5" verticalCenter="0" y="145" scaleX="1" scaleY="1" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" fillColor="0xFC0000" scaleX="1" scaleY="1" x="0" y="0" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" scaleX="1" scaleY="1" source="error"/>
+				</e:Group>
+				<e:Group id="error_icon_ai_01" width="35" height="35" scaleX="1" scaleY="1" verticalCenter="0" x="482.5" y="145" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" fillColor="0xFC0000" scaleX="1" scaleY="1" y="0" right="0" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" scaleX="1" scaleY="1" source="error"/>
+				</e:Group>
+				<e:Group id="right_icon_player_01" width="35" height="35" scaleX="1" scaleY="1" verticalCenter="0" x="-17.5" y="145" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" scaleX="1" scaleY="1" x="0" y="0" fillColor="0x31c782" alpha="0" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" source="right"/>
+				</e:Group>
+				<e:Group id="right_icon_ai_01" height="35" scaleX="1" scaleY="1" width="35" verticalCenter="0" x="482.5" y="145" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" scaleX="1" scaleY="1" y="0" right="0" fillColor="0x31c782" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" scaleX="1" scaleY="1" source="right"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="answer_button_group_02" width="500" height="80" y="120" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Rect id="answer_button_02" width="500" height="80" y="39.39" scaleX="1" scaleY="1" strokeWeight="2" fillColor="0xFFFFFF" strokeColor="0xCCCCCC" ellipseWidth="20" ellipseHeight="20" alpha="1" anchorOffsetX="250" anchorOffsetY="40" horizontalCenter="0"/>
+				<e:Label id="answer_button_text_02" text="" horizontalCenter="0" verticalCenter="0" width="440" textAlign="center" textColor="0x000000"/>
+				<e:Group id="error_icon_player_02" width="35" height="35" x="-17.499999999999993" verticalCenter="0" y="23" scaleX="1" scaleY="1" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" fillColor="0xFC0000" scaleX="1" scaleY="1" x="0" y="0" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" scaleX="1" scaleY="1" source="error"/>
+				</e:Group>
+				<e:Group id="error_icon_ai_02" width="35" height="35" scaleX="1" scaleY="1" verticalCenter="0" x="482.5" y="23" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" fillColor="0xFC0000" scaleX="1" scaleY="1" y="0" right="0" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" scaleX="1" scaleY="1" source="error"/>
+				</e:Group>
+				<e:Group id="right_icon_player_02" width="35" height="35" scaleX="1" scaleY="1" verticalCenter="0" x="-17.499999999999993" y="23" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" scaleX="1" scaleY="1" x="0" y="0" fillColor="0x31c782" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" scaleX="1" scaleY="1" source="right"/>
+				</e:Group>
+				<e:Group id="right_icon_ai_02" height="35" scaleX="1" scaleY="1" width="35" verticalCenter="0" x="482.5" y="23" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" scaleX="1" scaleY="1" y="0" right="0" fillColor="0x31c782" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" scaleX="1" scaleY="1" source="right"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="answer_button_group_03" width="500" height="80" y="240" horizontalCenter="0" x="3" scaleX="1" scaleY="1">
+			<e:Rect id="answer_button_03" width="500" height="80" y="36" scaleX="1" scaleY="1" strokeWeight="2" fillColor="0xFFFFFF" strokeColor="0xCCCCCC" ellipseWidth="20" ellipseHeight="20" alpha="1" anchorOffsetX="250" anchorOffsetY="40" horizontalCenter="0"/>
+				<e:Label id="answer_button_text_03" text="" horizontalCenter="0" verticalCenter="0" width="440" textAlign="center" textColor="0x000000"/>
+				<e:Group id="error_icon_player_03" width="35" height="35" x="-17.5" verticalCenter="0" y="-95.00000000000011" scaleX="1" scaleY="1" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" fillColor="0xFC0000" scaleX="1" scaleY="1" x="0" y="0" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" scaleX="1" scaleY="1" source="error"/>
+				</e:Group>
+				<e:Group id="error_icon_ai_03" width="35" height="35" scaleX="1" scaleY="1" verticalCenter="0" x="482.5" y="-95.00000000000011" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" fillColor="0xFC0000" scaleX="1" scaleY="1" y="0" right="0" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" scaleX="1" scaleY="1" source="error"/>
+				</e:Group>
+				<e:Group id="right_icon_player_03" width="35" height="35" scaleX="1" scaleY="1" verticalCenter="0" x="-17.5" y="-95.00000000000011" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" scaleX="1" scaleY="1" x="0" y="0" fillColor="0x31c782" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" scaleX="1" scaleY="1" source="right"/>
+				</e:Group>
+				<e:Group id="right_icon_ai_03" height="35" scaleX="1" scaleY="1" width="35" verticalCenter="0" x="482.5" y="-95.00000000000011" alpha="0">
+					<e:Rect width="35" height="35" ellipseWidth="50" ellipseHeight="50" scaleX="1" scaleY="1" y="0" right="0" fillColor="0x31c782" alpha="1" visible="false"/>
+					<e:Image width="35" height="35" x="0" y="0" source="xiaobao.right"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Label id="question_tipe" text="" y="567" horizontalCenter="0" textColor="0xf6c24d" size="26" textAlign="center" alpha="0"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareGuideScreeSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="170d32ac58e" ></w:Config>
+	<e:Group width="640" height="1136" x="0" y="0">
+		<e:Rect width="640" height="1136" x="-8" y="-12" alpha="0.3" scaleX="1" scaleY="1"/>
+		<e:Image width="525.33" height="596.9" x="130.18" y="-30.18" source="guide_png" anchorOffsetX="0" anchorOffsetY="0" rotation="360" scaleY="1.15" scaleX="1"/>
+	</e:Group>
+</e:Skin>

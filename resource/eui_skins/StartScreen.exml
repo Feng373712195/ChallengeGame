@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartScreenSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="170c3456147" ></w:Config>
+	<e:Image id="start_bg" width="640" height="1136" x="0" y="-2" anchorOffsetX="0"  source="bg01_png"/>
+	<e:Group width="550.85" height="414.43" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="113" horizontalCenter="4.5">
+		<e:Image width="250" height="250" scaleX="1" scaleY="1" right="0" top="0" source="play_btn"/>
+		<e:Image width="550" height="140" scaleX="1" scaleY="1" source="rank_btn" bottom="0" left="0"/>
+		<e:Image width="250" height="250" x="0.7000000000000028" y="0" source="share_btn" anchorOffsetX="0" anchorOffsetY="0" rotation="360" scaleX="1" scaleY="1"/>
+		<e:Rect id="share_btn" width="250" height="250" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" alpha="0"/>
+		<e:Rect id="start_btn" width="259.39" height="241.21" anchorOffsetX="0" anchorOffsetY="0" top="0" y="-474.00000000000006" scaleX="1" scaleY="1" right="3.8500000000000227" alpha="0"/>
+		<e:Rect id="rank_btn" width="550.3" height="141.21" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" right="-0.14999999999997726" x="331.61" bottom="0.4300000000000068" alpha="0"/>
+	</e:Group>
+	<e:Image id="music_btn" width="50" top="39" right="48" height="50"/>otation="9.21"/>
+</e:Skin>

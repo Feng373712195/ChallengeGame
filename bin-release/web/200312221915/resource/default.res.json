@@ -1,0 +1,25 @@
+{
+	"groups": [
+		{
+			"keys": "questions_json,bg_jpg",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/questions.json",
+			"type": "json",
+			"name": "questions_json"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/xiaoan.png",
+			"type": "image",
+			"name": "xiaoan_png"
+		}
+	]
+}

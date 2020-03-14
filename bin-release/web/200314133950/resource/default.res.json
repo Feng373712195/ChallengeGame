@@ -1,0 +1,72 @@
+{
+
+	"groups": [
+		{
+			"keys": "questions_json,,xiaobao,bg_jpg,bg01_png,play_btn,share_btn,rank_btn",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/questions.json",
+			"type": "json",
+			"name": "questions_json"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/slice/bg_01.png",
+			"type": "image",
+			"name": "bg01_png"
+		},
+		{
+			"url": "assets/bg_02.png",
+			"type": "image",
+			"name": "bg02_png"
+		},
+		{
+			"url": "assets/bg_03.png",
+			"type": "image",
+			"name": "bg03_png"
+		},
+		{
+			"url": "assets/bg_04.png",
+			"type": "image",
+			"name": "bg04_png"
+		},
+		{
+			"url": "assets/guide.png",
+			"type": "image",
+			"name": "guide_png"
+		},
+		{
+			"url": "assets/slice/play_btn.png",
+			"type": "image",
+			"name": "play_btn"
+		},
+		{
+			"url": "assets/slice/rank_btn.png",
+			"type": "image",
+			"name": "rank_btn"
+		},
+		{
+			"url": "assets/slice/share_btn.png",
+			"type": "image",
+			"name": "share_btn"
+		},
+		{
+			"url": "assets/slice/xiaoan.png",
+			"type": "image",
+			"name": "xiaoan_png"
+		},
+		{
+			"name":"xiaobao",
+			"url":"assets/xiaobao.json",
+			"subkeys":"vs,right,error,music_open,music_close,t1,t2,t3,t4,t5,t6",
+			"type":"sheet"
+		}
+	]
+}
