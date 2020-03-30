@@ -10,4 +10,4 @@
 
 ## 介绍文章
 
-[小游戏之《头脑王者Like》](http://wuzefeng.cn/article/5e7f1eaed739af775d53ebca)
+[小游戏之《头脑王者Like》](http://wuzefeng.cn/article/5e7f338ed739af775d53ebcb)
